@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+    <PackageReference Include="MySql.Data" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Architecture.Core\Clean.Architecture.Core.csproj" />
+  </ItemGroup>
+
+</Project>
